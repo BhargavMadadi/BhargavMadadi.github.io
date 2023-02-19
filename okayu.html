@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Okayu | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Okayu
+        </h1>
+        
+        <section class="description">
+            <p>Some people may prefer their okayu to be more soupy or thicker, so feel free to adjust the water ratio to your liking. You can also experiment with different toppings, such as soy sauce, sesame seeds, or cooked vegetables. Okayu can be a gentle and nourishing food for those with upset stomachs, and the ginger is thought to have anti-inflammatory and digestive benefits.
+            </p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Rinse the rice in a fine-mesh strainer and let it soak in water for 30 minutes to an hour.</p>
+            <p class="steps">Step 2: In a large pot, bring the 8 cups of water and grated ginger to a boil.</p>
+            <p class="steps">Step 3: Drain the rice and add it to the pot, stirring gently.</p>
+            <p class="steps">Step 4: Reduce the heat to low and let the rice simmer for about 30-40 minutes, or until it's soft and fully cooked. Stir occasionally to prevent the rice from sticking to the bottom of the pot.</p>
+            <p class="steps">Step 5: Add the salt and mix well.</p>
+            <p class="steps">Step 6: Serve the okayu hot in bowls, with toppings of your choice.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

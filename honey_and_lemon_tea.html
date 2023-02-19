@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Honey and Lemon Tea | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Honey and Lemon Tea
+        </h1>
+        
+        <section class="description">
+            <p>Honey has natural antibacterial and anti-inflammatory properties, while lemon contains vitamin C which may help boost the immune system. Drinking honey and lemon tea may help alleviate sore throat symptoms and also provide some relief for coughing and congestion.
+            </p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Boil water in a kettle or on the stovetop.</p>
+            <p class="steps">Step 2: Pour hot water into a mug.</p>
+            <p class="steps">Step 3: Add honey and lemon juice to the hot water and stir well.</p>
+            <p class="steps">Step 4: Sip slowly and let the warm liquid soothe your sore throat.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Khichdi | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Khichdi
+        </h1>
+        
+        <section class="description">
+            <p>Khichdi is a traditional Indian comfort food that's easy to make and easy to digest. It's a one-pot meal that's perfect for when you're feeling under the weather, as it's gentle on the stomach and packed with nutrients from the rice and dal. You can adjust the spice level to your liking by adding more or less green chilies and red chili powder. You can also add some chopped vegetables, such as carrots, peas, or cauliflower, to the khichdi for extra nutrition.
+            </p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Rinse the rice and moong dal in cold water, then soak them in water for about 20-30 minutes.</p>
+            <p class="steps">Step 2: In a large pot, heat the ghee or oil over medium heat.</p>
+            <p class="steps">Step 3: Add the cumin seeds to the pot and let them splutter.</p>
+            <p class="steps">Step 4: Add the chopped onion, garlic, ginger, and green chilies to the pot and sauté for about 2-3 minutes, until the onion is soft and translucent.</p>
+            <p class="steps">Step 5: Add the turmeric powder, coriander powder, cumin powder, red chili powder (if using), and salt to the pot and stir well.</p>
+            <p class="steps">Step 6: Drain the soaked rice and dal and add them to the pot, along with 4 cups of water.</p>
+            <p class="steps">Step 7: Stir well and bring the mixture to a boil.</p>
+            <p class="steps">Step 8: Reduce the heat and let the khichdi simmer for about 20-25 minutes, stirring occasionally, until the rice and dal are soft and the mixture is thick and creamy.</p>
+            <p class="steps">Step 9: Serve the khichdi hot, garnished with chopped cilantro and a dollop of ghee.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

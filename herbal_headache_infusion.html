@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Herbal Headache Infusion | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Herbal Headache Infusion
+        </h1>
+        
+        <section class="description">
+            <p>Lavender, chamomile, and peppermint are all well-known for their soothing properties and can help reduce tension and stress, which are common causes of headaches. Honey or agave nectar can be added for natural sweetness if desired.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: In a large teapot or heat-proof bowl, combine the dried lavender flowers, chamomile flowers, and peppermint leaves.</p>
+            <p class="steps">Step 2: Pour the boiling water over the herbs and let the mixture steep for 10-15 minutes.</p>
+            <p class="steps">Step 3: Strain the infusion through a fine-mesh strainer or cheesecloth.</p>
+            <p class="steps">Step 4: If desired, add honey or agave nectar to the infusion and stir until the sweetener dissolves.</p>
+            <p class="steps">Step 5: Divide the infusion into 2 cups and sip slowly.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

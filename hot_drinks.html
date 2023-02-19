@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hot Drinks | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Hot Drinks
+        </h1>
+        
+        <section class="description">
+            <p>Warm and hot drinks can help loosen up the airways and relieve congestion. According to one study, the common source of respiratory infections, the respiratory syncytial virus, may be successfully combated by ginger.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Drink a hot drink.</p>
+            <p class="steps">Step 2: Can add some ginger if wanted.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

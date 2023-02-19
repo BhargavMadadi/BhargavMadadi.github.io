@@ -1,0 +1,92 @@
+:root {
+    --primary-light: #b0c4b1;
+    --primary-dark: #143109;
+    --secondary-light: #dae0e7;
+    --secondary-dark: #7b2d26;
+  }
+
+* {
+    margin: 0px;
+}
+
+html {
+    font-family: "Playfair Display";
+}
+
+heading {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: url('tremedies_hero.jpg');
+    background-size: cover;
+}
+
+div.heading {
+    width: 100%;
+}
+
+section.background {
+    min-width: 50%;
+
+    background-color: #dae0e7de;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 1em;
+
+    position: absolute;
+    top: 50%;
+
+    border: 0px solid var(--primary-dark)
+}
+
+h1.name {
+    padding-left: 2%;
+    color: var(--secondary-dark);
+    font-size: 108px;
+    font-weight: 700;
+}
+
+p.description {
+    padding-left: 2%;
+    font-size: 24px;
+    font-family: "DM Sans";
+    color: var(--secondary-dark)
+}
+
+div.heading {
+    text-align: left;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 0px
+}
+
+a.button {
+    display: inline-block;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    font-size: 18px;
+    font-family: "DM Sans";
+    padding: 1ex;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+    border-radius: 500px;
+    margin: 20px; 
+    border: 2px solid var(--primary-dark);
+}
+
+.button:active {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+}

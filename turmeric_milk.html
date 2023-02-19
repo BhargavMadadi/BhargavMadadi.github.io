@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Turmeric Milk | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Turmeric Milk
+        </h1>
+        
+        <section class="description">
+            <p>Turmeric has anti-inflammatory and antioxidant properties, and is commonly used in Indian cuisine and traditional medicine. The warm milk can also help soothe a sore throat and provide some relief from discomfort. Honey can also help soothe a sore throat and add a touch of sweetness to the drink. Note: If you are lactose intolerant or allergic to dairy, you can use almond milk or another non-dairy alternative instead. Also, if your symptoms persist or worsen, it's best to consult a doctor.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Heat the milk in a small pot over medium heat.</p>
+            <p class="steps">Step 2: Add the turmeric powder and whisk well to combine.</p>
+            <p class="steps">Step 3: Let the milk simmer for 3-5 minutes.</p>
+            <p class="steps">Step 4: Turn off the heat and let the milk cool down for a few minutes.</p>
+            <p class="steps">Step 5: If desired, add honey to taste and stir well.</p>
+            <p class="steps">Step 6: Drink the turmeric milk slowly while it's still warm.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+:root {
+    --primary-light: #b0c4b1;
+    --primary-dark: #143109;
+    --secondary-light: #dae0e7;
+    --secondary-dark: #7b2d26;
+}
+
+html {
+    background-color: var(--secondary-light);
+    font-family: "DM Sans";
+    color: var(--primary-dark);
+}
+
+h1 {
+    margin: 1ex;
+    margin-left: 1em;
+    font-size: 48px;
+    color: var(--secondary-dark);
+}
+
+section {
+    width: 100%;
+
+    font-size: 36px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.symptoms {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+div.symptoms button {
+    display: inline-block;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    font-size: 28px;
+    font-family: "DM Sans";
+    padding: 1ex;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+    border-radius: 5000px;
+    margin: 15px; 
+    border: 2px solid var(--primary-dark);
+}
+
+div.symptoms button:active {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+}
+
+section.remedies {
+    font-size: 24px;
+}
+
+section.remedies div.headings {
+    margin-top: 5ex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+section.remedies div.headings p{
+    width: 25%;
+
+    display: flex;
+    align-self: flex-end;
+    margin: .2ex;
+}
+
+section.remedies div {
+    width: 94%;
+    background-color: var(--secondary-light);
+    border-bottom: 2px solid var(--primary-dark);
+    margin: 0ex;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+section.remedies div a {
+    color: var(--primary-dark);
+    width: 50%;
+    text-justify: center;
+}
+
+section.remedies p {
+    width: 150%;
+}
+
+section.allClass {
+    width: 100%;
+    align-items: center;
+    border-bottom: 200px;
+}
+
+a.all {
+    color: var(--primary-dark);
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding: 2ex;
+}

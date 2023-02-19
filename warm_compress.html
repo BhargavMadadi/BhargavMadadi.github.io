@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Warm Compress | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Warm Compress
+        </h1>
+        
+        <section class="description">
+            <p>A warm compress can help to relieve pain and reduce inflammation in the ear. The warmth can also help to improve blood flow to the area, which can promote healing. Be sure to use warm, not hot water, to avoid burning the skin. If your earache is severe or accompanied by other symptoms such as fever or hearing loss, it's important to seek medical attention.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Soak a clean washcloth or towel in warm water.</p>
+            <p class="steps">Step 2: Wring out the excess water.</p>
+            <p class="steps">Step 3: Place the warm compress over the affected ear.</p>
+            <p class="steps">Step 4: Leave it on for 10-15 minutes.</p>
+            <p class="steps">Step 5: Repeat 2-3 times a day.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Warm Lemon Water | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Warm Lemon Water
+        </h1>
+        
+        <section class="description">
+            <p>Warm lemon water can help to stimulate bowel movements and relieve constipation. Lemon juice is a natural diuretic and can help to flush out toxins and waste from the body. It also contains citric acid, which can help to stimulate the digestive system and promote the production of digestive juices. Additionally, warm water helps to soften the stool and make it easier to pass. If your constipation is severe or if it persists for more than a few days, it's important to consult with a healthcare professional for proper diagnosis and treatment.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Squeeze the juice of the half lemon into a cup of warm water.</p>
+            <p class="steps">Step 2: If desired, add honey to taste.</p>
+            <p class="steps">Step 3: Drink the warm lemon water slowly on an empty stomach, first thing in the morning.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

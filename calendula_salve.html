@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calendula Salve | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Calendula Salve
+        </h1>
+        
+        <section class="description">
+            <p>To use the calendula salve, apply a small amount to the affected area as needed. Calendula is known for its anti-inflammatory and skin-soothing properties, so it can be helpful for a variety of skin irritations, such as rashes, insect bites, and minor cuts and scrapes.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: In a double boiler, combine the dried calendula flowers and the carrier oil. If you don't have a double boiler, you can use a heat-safe bowl set over a pot of simmering water.</p>
+            <p class="steps">Step 2: Heat the mixture over low heat for 2-3 hours, stirring occasionally. You want to infuse the oil with the properties of the calendula flowers.</p>
+            <p class="steps">Step 3: Strain the mixture through a cheesecloth or fine-mesh strainer to remove the calendula flowers.</p>
+            <p class="steps">Step 4: Return the infused oil to the double boiler and add the beeswax. Heat until the beeswax is melted and fully combined with the oil.</p>
+            <p class="steps">Step 5: Remove the mixture from the heat and stir in the lavender essential oil (if using).</p>
+            <p class="steps">Step 6: Pour the mixture into jars or tins and let it cool and solidify.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

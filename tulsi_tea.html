@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tulsi Tea | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Tulsi Tea
+        </h1>
+        
+        <section class="description">
+            <p>Tulsi, also known as holy basil, is a popular herb in Ayurvedic medicine and is believed to have antiviral, antibacterial, and anti-inflammatory properties. Drinking tulsi tea may help alleviate cold symptoms such as cough, congestion, and fever.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Boil the water in a pot.</p>
+            <p class="steps">Step 2: Add the tulsi leaves to the water and reduce the heat to low.</p>
+            <p class="steps">Step 3: Let the tulsi leaves steep in the water for about 5-10 minutes.</p>
+            <p class="steps">Step 4: Strain the tea into a cup and add honey to taste, if desired.</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

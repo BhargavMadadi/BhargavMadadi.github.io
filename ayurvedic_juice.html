@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ayurvedic Juice | Rooted Remedies</title>
+        <link rel="stylesheet" href="assets/remedies.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>
+            Ayurvedic Juice 
+        </h1>
+        
+        <section class="description">
+            <p>This Ayurvedic juice recipe is a simple and effective natural remedy for relieving trouble breathing. Ginger juice and lemon juice have natural anti-inflammatory and antibacterial properties, while honey can help soothe irritation in the throat and airways. The combination of these ingredients can help to ease congestion and improve breathing. It is recommended to drink this juice once or twice a day until symptoms improve.</p>
+        </section>
+
+        <section class="steps_sec" id="steps_sec">
+            <p class="steps">Step 1: Mix honey, ginger juice, and lemon juice in a bowl.</p>
+            <p class="steps">Step 2: Consume the mixture once or twice daily until the symptoms of trouble breathing have improved</p>
+        </section>
+
+        <button class="next" id="next" onClick="showNext()">
+            Next
+        </button>
+
+        <section class="results" id="results">
+            <p>How do you feel after trying this remedy?</p>
+            <div class="ratings" id="ratings">
+                <button onClick="rated()">Much worse</button>
+                <button onClick="rated()">Worse</button>
+                <button onClick="rated()">The same</button>
+                <button onClick="rated()">Better</button>
+                <button onClick="rated()">Much better</button>
+            </div>
+            <p id="thanks">Thank you for your feedback!</p>
+        </section>
+    
+    <script src="assets/remedies.js"></script>
+    </body>
+</html>

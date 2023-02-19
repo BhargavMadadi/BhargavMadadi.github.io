@@ -1,0 +1,68 @@
+﻿symptom,recipe,rating
+cold,ginger honey tea,5
+cold,garlic lemon tea,5
+cold,tulsi tea,4
+cold,ginger and turmeric milk,3
+cold,elderberry syrup,2
+fever,banana and oat porridge,5
+fever,okayu,5
+fever,khichdi,4
+fever,chicken and veg soup,3
+fever,fever-reducing ayurvedic tea,3
+fever,asian herbal tea,2
+sore throat,turmeric milk,5
+sore throat,honey and lemon tea,5
+sore throat,gargle salt water,4
+sore throat,cloves tea,3
+sore throat,chicken noodle soup,3
+sore throat,ginger and turmeric soup,2
+headache,headache-relieving iced tea,5
+headache,herbal headache infusion,4
+headache,ginger soup,4
+headache,migraine-relieving smoothie,2
+stuffy nose,stuffy nose-relieving tea,4
+stuffy nose,beetroot stuffy nose relief juice,4
+stuffy nose,spicy sinus-opening tea,2
+stuffy nose,spicy garlic and ginger fried rice,4
+cough,throat-soothing cough elixer,3
+cough,herbal cough syrup,5
+cough,thyme & mint cough relief tea,2
+cough,licorice root throat soother tea,2
+cough,apple cider vinegar throat soothing tea,4
+cough,cloves infused milk,4
+diarrhea,banana and rice porridge,5
+diarrhea,ayurvedic diarrhea relief soup,4
+diarrhea,european rice pudding,4
+diarrhea,ginger and turmeric stomach relief,1
+nausea,ginger-min nausea relief tea,4
+nausea,banana oatmeal,5
+nausea,peppermint tea,4
+nausea,soothing soup,2
+constipation,flaxseed smoothie,1
+constipation,warm lemon water,4
+constipation,high fiber veggie stir-fry,4
+constipation,herbal constipation relief tea,5
+stomachache,ayurvedic stomach relief,4
+stomachache,dried tangerine tea,4
+stomachache,miso soup with rice and ginger,2
+stomachache,ginger chicken and rice soup,5
+earache,onion juice,4
+earache,warm compress,5
+earache,basil oil,4
+earache,salt water rinse (ear),1
+toothache,clove oil,4
+toothache,salt water rinse (tooth),2
+toothache,guava leaves,4
+toothache,soothing toothache remedy,5
+trouble breathing,steam inhalation,1
+trouble breathing,drinking caffeine,4
+trouble breathing,hot drinks,5
+trouble breathing,ayurvedic juice,4
+skin irritation,turmeric paste,5
+skin irritation,calendula salve,4
+skin irritation,aloe vera gel,2
+skin irritation,homemade oatmeal bath,4
+muscle pain,herbal muscle pain reliver,4
+muscle pain,muscle pain relieving cream,4
+muscle pain,honey-apple cider vinegar muscle pain relief tonic,1
+muscle pain,turmeric and ginger chicken stir-fry,4
